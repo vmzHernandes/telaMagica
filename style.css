@@ -1,0 +1,45 @@
+/* * {
+    background-color: #1d1d1d;
+    font-family: 'Raleway', sans-serif;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+main .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button, input {
+    cursor: pointer;
+    margin: 2rem;
+    color: white;
+    border: none;
+}
+button {
+    border-bottom: 1px solid white;
+}
+button:hover {
+    color: #1d1d1d;
+    background: rgb(255, 255, 255);
+}
+input:hover {
+    transition: all .3s ease-in-out;
+    transform: scale(1.2); 
+} */
+.container {
+    display: grid;
+    width: 480px;
+    height: 480px;
+    border: 1px solid black;
+}

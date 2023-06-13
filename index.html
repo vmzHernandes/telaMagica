@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <title>Traço Mágico</title>
+</head>
+<body>
+    <h1>Traço Mágico</h1>
+    <main>
+        <nav>
+            <input type="color">
+            <button>Modo cor sólida</button>
+            <button onclick="trocaCor('aleatorio')">Modo arco-íris</button>
+            <button onclick="trocaCor('white')">Borracha</button>
+            <button onclick="limpaQuadro()">Limpar quadro</button>
+            <input type="text" placeholder="Tamanho da tela" value="16" onchange="mudaTamanho(this.value)">
+            <button>Mudar tamanho</button>
+        </nav>
+        <div class="container" id="container">
+        </div>
+        <div class="modo">Clique para desenhar</div>
+    </main> 
+    <script src="script.js"></script>
+</body>
+</html>
